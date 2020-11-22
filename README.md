@@ -1,6 +1,6 @@
 <a href="kodi.tv">KODI<a> (XBMC/OSMC/Firestick) audio addon for the <a href="https://kpft.org/">KPFT</a> podcasts.<br>
 
-<img src=""><br>
+<img src="https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"><br>
 
 - ReallyButNotReally<br>
 - FreeThinkerRadio<br>

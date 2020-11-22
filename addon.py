@@ -22,55 +22,55 @@ def main_menu():
         {
             'label': plugin.get_string(30001), 
             'path': plugin.url_for('episodes1'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30002),
             'path': plugin.url_for('episodes2'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30003),
             'path': plugin.url_for('episodes3'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30004),
             'path': plugin.url_for('episodes4'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30005),
             'path': plugin.url_for('episodes5'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30006),
             'path': plugin.url_for('episodes6'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30007),
             'path': plugin.url_for('episodes7'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30008),
             'path': plugin.url_for('episodes8'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30009),
             'path': plugin.url_for('episodes9'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30010),
             'path': plugin.url_for('episodes10'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30011),
             'path': plugin.url_for('episodes11'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30012),
             'path': plugin.url_for('episodes12'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30013),
             'path': plugin.url_for('episodes13'),
-            'thumbnail': ""},
+            'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true"},
     ]
     return items
 

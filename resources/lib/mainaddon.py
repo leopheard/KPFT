@@ -77,14 +77,14 @@ def get_playable_podcast1(soup1):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item)
     return subjects
@@ -108,14 +108,14 @@ def get_playable_podcast2(soup2):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item) 
     return subjects
@@ -139,14 +139,14 @@ def get_playable_podcast3(soup3):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item) 
     return subjects
@@ -170,14 +170,14 @@ def get_playable_podcast4(soup4):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item) 
     return subjects
@@ -201,14 +201,14 @@ def get_playable_podcast5(soup5):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item) 
     return subjects
@@ -232,14 +232,14 @@ def get_playable_podcast6(soup6):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item) 
     return subjects
@@ -263,14 +263,14 @@ def get_playable_podcast7(soup7):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item) 
     return subjects
@@ -294,14 +294,14 @@ def get_playable_podcast8(soup8):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item) 
     return subjects
@@ -325,14 +325,14 @@ def get_playable_podcast9(soup9):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item) 
     return subjects
@@ -356,14 +356,14 @@ def get_playable_podcast10(soup10):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item) 
     return subjects
@@ -387,14 +387,14 @@ def get_playable_podcast11(soup11):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item) 
     return subjects
@@ -418,14 +418,14 @@ def get_playable_podcast12(soup12):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item) 
     return subjects
@@ -449,14 +449,14 @@ def get_playable_podcast13(soup13):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://github.com/leopheard/KPFT/blob/master/resources/media/icon.jpg?raw=true",
         }
         subjects.append(item) 
     return subjects
